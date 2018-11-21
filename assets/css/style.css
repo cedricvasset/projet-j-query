@@ -3,7 +3,7 @@ img{
   height: 50%;
 }
 h1{
-
+text-align: left;
   color: red;
 }
 p{
@@ -15,4 +15,10 @@ p{
 }
 .fixe,.portable,.tab{
   display: none;
+}
+.quantity,.ref,.price,.articlename{
+  float: left;
+}
+.modal-dialog{
+  max-width: 700px;
 }
