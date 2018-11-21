@@ -1,3 +1,4 @@
+$(function(){
 $('#panier').click(function(){
   $('#basket').show();
 });
@@ -6,4 +7,5 @@ $('#close').click(function(){
 });
 $('#closex').click(function(){
   $('#basket').hide();
+});
 });
