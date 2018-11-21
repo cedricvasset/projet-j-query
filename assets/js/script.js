@@ -1,0 +1,9 @@
+$('#panier').click(function(){
+  $('#basket').show();
+});
+$('#close').click(function(){
+  $('#basket').hide();
+});
+$('#closex').click(function(){
+  $('#basket').hide();
+});
