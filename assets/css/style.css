@@ -3,5 +3,16 @@ img{
   height: 50%;
 }
 h1{
+
   color: red;
+}
+p{
+  width: 50%;
+  text-align: center;
+}
+.col{
+  padding-bottom: 3%;
+}
+.fixe,.portable,.tab{
+  display: none;
 }

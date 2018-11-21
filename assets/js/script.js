@@ -8,4 +8,20 @@ $(function(){
   $('#closex').click(function(){
     $('#basket').hide();
   });
+  $('#PCPortable').click(function(){
+    $('.fixe').hide();
+    $('.portable').show();
+    $('.tab').hide();
+  });
+  $('#PCFixe').click(function(){
+    $('.fixe').show();
+    $('.portable').hide();
+    $('.tab').hide();
+  });
+  $('#Tab').click(function(){
+    $('.fixe').hide();
+    $('.portable').hide();
+    $('.tab').show();
+  });
+
 });
