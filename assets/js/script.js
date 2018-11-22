@@ -31,17 +31,17 @@ $('#Tab').click(function(){
 //fonction qui ajoute une ligne
 $('.ajout').click(function(){
 $('#commande').clone().appendTo($('.modal-body'));
-
 })
 //ajouter du contenu des articles
 $('#ajoutf1').click(function(){
   $('#commande').show();
-$('#fixe1').clone().appendTo($('.articlename'));
-$('#prixfixe1').clone().appendTo($('.price'));
+$('#fixe1').clone().appendTo($('.modal-body'));
+$('#prixfixe1').clone().appendTo($('.modal-body'));
 });
 $('#ajoutf2').click(function(){
-$('#fixe2').clone().appendTo($('.articlename'));
-$('#prixfixe2').clone().appendTo($('.price'));
+    $('#commande').show();
+$('#fixe2').clone().appendTo($('.modal-body'));
+$('#prixfixe2').clone().appendTo($('.modal-body'));
 });
 
 
