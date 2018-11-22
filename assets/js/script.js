@@ -27,4 +27,8 @@ $('#Tab').click(function(){
   $('.tab').show();
   $('.accueil').hide();
 });
+$('.ajout').click(function(){
+$('#commande').clone().appendTo($('.modal-body'));
+  alert ('ok')
+})
 });
