@@ -1,4 +1,5 @@
 $(function(){
+  $('#commande').hide();
   $('#panier').click(function(){
     $('#basket').show();
   });
@@ -27,9 +28,14 @@ $('#Tab').click(function(){
   $('.tab').show();
   $('.accueil').hide();
 });
+//fonction qui ajoute une ligne
+$('.ajout').click(function(){
+$('#commande').clone().appendTo($('.modal-body'));
 
-//ajouter au panier au clic sur bouton 'Ajouter'(steph)
+})
+//ajouter du contenu des articles
 $('#ajoutf1').click(function(){
+  $('#commande').show();
 $('#fixe1').clone().appendTo($('.articlename'));
 $('#prixfixe1').clone().appendTo($('.price'));
 });
@@ -37,5 +43,7 @@ $('#ajoutf2').click(function(){
 $('#fixe2').clone().appendTo($('.articlename'));
 $('#prixfixe2').clone().appendTo($('.price'));
 });
+
+
 
 });
