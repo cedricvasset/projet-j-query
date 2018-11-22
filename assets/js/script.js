@@ -27,4 +27,15 @@ $('#Tab').click(function(){
   $('.tab').show();
   $('.accueil').hide();
 });
+
+//ajouter au panier au clic sur bouton 'Ajouter'(steph)
+$('#ajoutf1').click(function(){
+$('#fixe1').clone().appendTo($('.articlename'));
+$('#prixfixe1').clone().appendTo($('.price'));
+});
+$('#ajoutf2').click(function(){
+$('#fixe2').clone().appendTo($('.articlename'));
+$('#prixfixe2').clone().appendTo($('.price'));
+});
+
 });
