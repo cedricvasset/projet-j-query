@@ -53,6 +53,6 @@ var result = (select*prix);
 $('.soustotal').append(result);
 $('.total').empty();
 $('.total').append(result);
-consol.log(result);
+
 });
 });
